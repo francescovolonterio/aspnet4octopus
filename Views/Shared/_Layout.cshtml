@@ -35,11 +35,9 @@
             @RenderBody()
         </main>
     </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - octopusTestAspNet - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
+    
+     <footer>
+        <p>&copy; 2018 - Random Quotes | Version @Settings.Value.AppVersion running in @Settings.Value.EnvironmentName</p>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
