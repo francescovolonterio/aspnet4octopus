@@ -1,4 +1,4 @@
-namespace RandomQuotes
+namespace octopusTestAspNet
 {
     public class AppSettings
     {
