@@ -2,6 +2,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
 
 var app = builder.Build();
 
